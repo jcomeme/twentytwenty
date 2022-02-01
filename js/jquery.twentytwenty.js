@@ -28,8 +28,8 @@
         overlay.append("<div class='twentytwenty-before-label' data-content='"+options.before_label+"'></div>");
         overlay.append("<div class='twentytwenty-after-label' data-content='"+options.after_label+"'></div>");
       }
-      var beforeImg = container.find("img:first");
-      var afterImg = container.find("img:last");
+      var beforeImg = container.find("iframe:first");
+      var afterImg = container.find("iframe:last");
       container.append("<div class='twentytwenty-handle'></div>");
       var slider = container.find(".twentytwenty-handle");
       slider.append("<span class='twentytwenty-" + beforeDirection + "-arrow'></span>");
